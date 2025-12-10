@@ -1,0 +1,2 @@
+export const SUBSCRIPTION_MODEL = 'SUBSCRIPTION_MODEL';
+export const SUBSCRIPTION_COLLECTION = 'subscription';

@@ -1,0 +1,2 @@
+export const PAYIT_FORWARD_MODEL = 'PAYIT_FORWARD_MODEL';
+export const PAYIT_FORWARD_COLLECTION = 'PayitForward';

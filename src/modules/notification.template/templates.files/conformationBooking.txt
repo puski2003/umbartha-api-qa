@@ -1,0 +1,3 @@
+Hi {{CustomerName}}! Your booking has been confirmed. We look forward to meeting you on {{AppointmentDate}} at {{AppointmentTime}}. If you have any questions or need to reschedule, please contact us. 
+\n {{{CancellationPolicy}}}
+\n Thank you! 

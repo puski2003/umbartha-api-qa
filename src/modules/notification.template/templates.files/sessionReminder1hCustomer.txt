@@ -1,0 +1,1 @@
+Hi {{CustomerName}}! Just a friendly reminder about your upcoming session with us in 1 hour.\n Please be on time! If you have any questions or need to reschedule, reply to this message. See you soon!

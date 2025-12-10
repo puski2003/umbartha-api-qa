@@ -1,0 +1,2 @@
+export const BOOKING_PAYMENT_MODEL = 'BOOKING_PAYMENT_MODEL';
+export const BOOKING_PAYMENT_COLLECTION = 'Booking-Payment';

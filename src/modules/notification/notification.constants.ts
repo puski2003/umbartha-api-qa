@@ -1,0 +1,2 @@
+export const NOTIFICATION_MODEL = 'NOTIFICATION_MODEL';
+export const NOTIFICATION_COLLECTION = 'notification';

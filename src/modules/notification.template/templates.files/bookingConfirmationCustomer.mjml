@@ -1,0 +1,84 @@
+<mjml>
+  <mj-head>
+    <mj-title>Booking Confirmation</mj-title>
+    <mj-attributes>
+      <mj-text font-family="Arial, sans-serif" />
+      <mj-class name="social-icon" border-radius="5px" background-color="#777777" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text color="#017D91" padding="20px 25px" font-size="24px">Booking Confirmation</mj-text>
+        <mj-text font-size="13px">Dear {{CustomerName}},</mj-text>
+        {{#if Online}}
+          <mj-text font-size="13px" align="justify">Your counselling session with {{CounsellorName}} has been successfully booked. Thank you for booking us. We look forward to meeting you in our upcoming session.</mj-text>
+        {{else}}
+          <mj-text font-size="13px" align="justify">Your counselling session with {{CounsellorName}} has been successfully booked.</mj-text>
+        {{/if}}
+        <mj-divider border-color="#43C1C0" border-width="4px"></mj-divider>
+
+        <mj-text font-size="18px" font-weight="bold">Booking Details</mj-text>
+        <mj-text font-size="13px"><strong>Booking ID:</strong> {{BookingID}}</mj-text>
+        <mj-text font-size="13px"><strong>Date:</strong> {{BookingDate}}</mj-text>
+        <mj-text font-size="13px"><strong>Time:</strong> {{BookingTime}}</mj-text>
+        <mj-text font-size="13px"><strong>Location:</strong> {{BookingLocation}}</mj-text>
+        {{#if Online}}
+          <mj-text font-size="13px"><strong>Meeting Link:</strong> {{MeetingLink}}</mj-text>
+        {{/if}}
+        {{#if Online}}
+          <mj-text font-size="13px" align="justify">As we prepare for our upcoming Zoom session, I’d like to kindly remind you of a few important details to ensure that we have a smooth and productive meeting:</mj-text>
+          <mj-text font-size="13px" align="justify">
+            <ul>
+              <li>We request you to be on time to make the most of our time together.</li>
+              <li>Please ensure you are in a location with a stable internet connection for a smooth experience.</li>
+              <li>Please join the session from a quiet and safe space where you can focus without interruptions.</li>
+            </ul>
+          </mj-text>
+        {{/if}}
+        {{#if BankTransfer}}
+          <mj-text font-size="18px" font-weight="bold">Payment Details</mj-text>
+          {{#if Online}}
+            <mj-text font-size="13px" align="justify">To confirm your booking, we request that payment be made to the account number provided,<strong> at least 24 hours before </strong> your scheduled session. <br /><br /> Following the transfer, please send a screenshot of the payment confirmation via WhatsApp to the number below with your name on it. </mj-text>
+          {{else}}
+            <mj-text font-size="13px" align="justify"> If you wish to make a bank transfer, the details are given below. <br /><br />
+              Kindly send a screenshot of the proof of payment to the given contact number below <strong>with your name on it</strong>.</mj-text>
+          {{/if}}
+          <mj-text font-size="18px" font-weight="bold">Bank Details</mj-text>
+          {{#BankDetails}}
+            <mj-text font-size="13px"><strong>Name:</strong> {{HolderName}}</mj-text>
+            <mj-text font-size="13px"><strong>Account Number:</strong> {{AccountNumber}}</mj-text>
+            <mj-text font-size="13px"><strong>Bank Name:</strong> {{BankName}}</mj-text>
+            <mj-text font-size="13px"><strong>Branch Name:</strong> {{BranchName}}</mj-text>
+            <mj-text font-size="13px"><strong>Phone Number:</strong> {{HolderPhoneNumber}}</mj-text>
+          {{/BankDetails}}
+        {{/if}}
+        <mj-text font-size="13px">{{SpecialInstruction}}</mj-text>
+        {{#if PayPal}}
+          <mj-text font-size="13px"><strong>Payment Details:</strong> Please use the following PayPal link to make the payment: {{PaymentLink}}</mj-text>
+        {{/if}}
+        <mj-text font-size="13px">{{CancellationPolicy}}</mj-text>
+        <mj-text font-size="13px" align="justify">Thank you for booking this session with us, we look forward to meeting you.</mj-text>
+        <mj-text font-size="13px">Warm regards, <br />
+          Umbartha.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="12px" color="#777777" align="center">
+          For any inquiries, please contact us at {{ContactInformation}}. <br />
+          Thank you for your attention!
+        </mj-text>
+        <mj-text font-size="10px" color="#777777" align="center" padding-top="0">
+          &copy; {{YearOngoing}} UMBARTHA. All rights reserved.
+        </mj-text>
+        <!-- Social Media Icons and Links -->
+        <mj-social mode="horizontal" icon-size="15px" padding-top="0">
+          <mj-social-element mj-class="social-icon" name="facebook" href="https://www.facebook.com/UmbarthaSL?mibextid=ZbWKwL"></mj-social-element>
+          <mj-social-element mj-class="social-icon" name="linkedin" href="https://www.linkedin.com/company/umbartha-beyond-thresholds/"></mj-social-element>
+          <mj-social-element mj-class="social-icon" name="instagram" href="https://www.instagram.com/umbarthabt/?igsh=NGRkNmpkaGh6Zjdp"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

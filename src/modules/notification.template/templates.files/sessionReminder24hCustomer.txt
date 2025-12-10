@@ -1,0 +1,1 @@
+Hi {{CustomerName}}, Just a friendly reminder that you have a session scheduled with us tomorrow at {{AppointmentTime}}. Please be on time! If you have any questions or need to reschedule, Contact us. See you soon!

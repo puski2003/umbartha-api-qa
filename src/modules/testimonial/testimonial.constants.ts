@@ -1,0 +1,2 @@
+export const TESTIMONIAL_MODEL = 'TESTIMONIAL_MODEL';
+export const TESTIMONIAL_COLLECTION = 'Testimonial';

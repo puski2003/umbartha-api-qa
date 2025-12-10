@@ -1,0 +1,1 @@
+Hi! Your OTP for verification is: {{OTPCode}}. Please use it to complete your registration. Do not share this code with anyone. Thank you!

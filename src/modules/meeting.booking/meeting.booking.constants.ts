@@ -1,0 +1,2 @@
+export const MEETING_BOOKING_MODEL = 'MEETING_BOOKING_MODEL';
+export const MEETING_BOOKING_COLLECTION = 'MeetingBooking';

@@ -1,0 +1,30 @@
+// Workspace settings
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": false,
+  "prettier.jsxSingleQuote": true,
+  "eslint.enable": true,
+
+  // The following will hide the given files
+  "files.exclude": {
+    ".eslintrc.js": true,
+    ".prettierrc": true,
+    // "package-lock.json": true,
+    // "ts*": true,
+    "nodemon*": true,
+    "node_modules": true,
+    ".gitignore": true,
+    ".dockerignore": true,
+    "buildspec.yml": true
+  },
+  "workbench.tree.indent": 15
+}

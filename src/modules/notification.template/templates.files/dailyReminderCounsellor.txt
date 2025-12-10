@@ -1,0 +1,1 @@
+Hi {{CounselorName}}, Just a friendly reminder that you have {{NumberofSessions}} session(s) scheduled today. Please ensure you're prepared. If you need to make any changes, let us know as soon as possible. Thank you!

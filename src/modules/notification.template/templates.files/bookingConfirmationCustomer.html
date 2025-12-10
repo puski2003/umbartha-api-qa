@@ -1,0 +1,397 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <title> Booking Confirmation </title>
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+      display: block;
+      margin: 13px 0;
+    }
+  </style>
+  <!--[if mso]>
+        <noscript>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        </noscript>
+        <![endif]-->
+  <!--[if lte mso 11]>
+        <style type="text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+  <style type="text/css">
+    @media only screen and (min-width:480px) {
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+    }
+  </style>
+  <style media="screen and (min-width:480px)">
+    .moz-text-html .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+    }
+  </style>
+  <style type="text/css">
+  </style>
+</head>
+
+<body style="word-spacing:normal;">
+  <div style="">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:20px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:24px;line-height:1;text-align:left;color:#017D91;">Booking Confirmation</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Dear {{CustomerName}},</div>
+                      </td>
+                    </tr>
+                    {{#if Online}}
+                    <tr>
+                      <td align="justify" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:justify;color:#000000;">
+                          {{#if Online}}
+                          Your counselling session with {{CounsellorName}} has been successfully booked. Thank you for booking us. We look forward to meeting you in our upcoming session.
+                          {{/if}}
+                        </div>
+                      </td>
+                    </tr>
+                    {{/if}}
+                    {{#unless Online}}
+                    <tr>
+                      <td align="justify" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:justify;color:#000000;">
+                          {{#unless Online}}
+                          Your counselling session with {{CounsellorName}} has been successfully booked.
+                          {{/unless}}
+                        </div>
+                      </td>
+                    </tr>
+                    {{/unless}}
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <p style="border-top:solid 4px #43C1C0;font-size:1px;margin:0px auto;width:100%;">
+                        </p>
+                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 4px #43C1C0;font-size:1px;margin:0px auto;width:550px;" role="presentation" width="550px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:18px;font-weight:bold;line-height:1;text-align:left;color:#000000;">Booking Details</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><strong>Booking ID:</strong> {{BookingID}}</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><strong>Date:</strong> {{BookingDate}}</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><strong>Time:</strong> {{BookingTime}}</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><strong>Location:</strong> {{BookingLocation}}</div>
+                      </td>
+                    </tr>
+                    {{#if ServiceName}}
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><strong>Service Name:</strong> {{ServiceName}}</div>
+                      </td>
+                    </tr>
+                    {{/if}}
+                    {{#if Online}}
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
+                          {{#if Online}}
+                          <strong>Meeting Link:</strong> <a href={{MeetingLink}}>{{MeetingLink}}</a>
+                          {{/if}}
+                        </div>
+                      </td>
+                    </tr>
+                    {{/if}}
+                    {{#if SpecialInstruction}}
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">{{{SpecialInstruction}}}</div>
+                      </td>
+                    </tr>
+                    {{/if}}
+                    {{#if Online}}
+                    <tr>
+                      <td align="justify" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:justify;color:#000000;">
+                          {{#if Online}}
+                          As we prepare for our upcoming Zoom session, I’d like to kindly remind you of a few important details to ensure that we have a smooth and productive meeting:
+                          {{/if}}
+                        </div>
+                      </td>
+                    </tr>
+                    {{/if}}
+                    {{#if Online}}
+                    <tr>
+                      <td align="justify" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:justify;color:#000000;">
+                          {{#if Online}}
+                          <ul>
+                            <li>We request you to be on time to make the most of our time together.</li>
+                            <li>Please ensure you are in a location with a stable internet connection for a smooth experience.</li>
+                            <li>Please join the session from a quiet and safe space where you can focus without interruptions.</li>
+                          </ul>
+                          {{/if}}
+                        </div>
+                      </td>
+                    </tr>
+                    {{/if}}
+                    {{#if BankTransfer}}
+                    {{#BankDetails}}
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Arial, sans-serif;font-size:18px;font-weight:bold;line-height:1;text-align:left;color:#000000;">Payment Details</div>
+                        </td>
+                      </tr>
+                      {{#if ../Online}}
+                      <tr>
+                        <td align="justify" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:justify;color:#000000;">
+                            {{#if ../Online}}
+                            To confirm your booking, we request that payment be made to the account number provided,<strong> at least 24 hours before </strong> your scheduled session. <br /><br /> Following the transfer, please send a screenshot of the payment confirmation via WhatsApp to the number below with your name on it.
+                            {{/if}}
+                          </div>
+                        </td>
+                      </tr>
+                      {{/if}}
+                      {{#unless ../Online}}
+                      <tr>
+                        <td align="justify" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:justify;color:#000000;">
+                            {{#unless ../Online}}
+                            If you wish to make a bank transfer, the details are given below. <br /><br /> Kindly send a screenshot of the proof of payment to the given contact number below <strong>with your name on it</strong>.
+                            {{/unless}}
+                          </div>
+                        </td>
+                      </tr>
+                      {{/unless}}
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Arial, sans-serif;font-size:18px;font-weight:bold;line-height:1;text-align:left;color:#000000;">Bank Details</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><strong>Name:</strong> {{HolderName}}</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><strong>Account Number:</strong> {{AccountNumber}}</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><strong>Bank Name:</strong> {{BankName}}</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><strong>Branch Name:</strong> {{BranchName}}</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><strong>Phone Number:</strong> {{HolderPhoneNumber}}</div>
+                        </td>
+                      </tr>
+                    {{/BankDetails}}
+                    {{/if}}
+                    {{#if PayPal}}
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
+                          {{#if PayPal}}
+                          <strong>Payment Details:</strong> Please use the following PayPal link to make the payment: <a href={{PaymentLink}}>{{PaymentLink}}</a>
+                          {{/if}}
+                        </div>
+                      </td>
+                    </tr>
+                    {{/if}}
+                    {{#if OtherOptions}}
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">{{{OtherOptions}}}</div>
+                      </td>
+                    </tr>
+                    {{/if}}
+                    {{#if CancellationPolicy}}
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">{{{CancellationPolicy}}}</div>
+                      </td>
+                    </tr>
+                    {{/if}}
+                    <tr>
+                      <td align="justify" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:justify;color:#000000;">Thank you for booking this session with us, we look forward to meeting you.</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Warm regards, <br /> Umbartha.</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:12px;line-height:1;text-align:center;color:#777777;">For any inquiries, please contact us at <a href={{ContactInformation}}>{{ContactInformation}}</a>. <br /> Thank you for your attention!</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;padding-top:0;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:10px;line-height:1;text-align:center;color:#777777;">&copy; {{YearOngoing}} UMBARTHA. All rights reserved.</div>
+                      </td>
+                    </tr>
+                    <!-- Social Media Icons and Links -->
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;padding-top:0;word-break:break-word;">
+                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td><![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                          <tr>
+                            <td style="padding:4px;vertical-align:middle;">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#777777;border-radius:5px;width:15px;">
+                                <tr>
+                                  <td style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/UmbarthaSL?mibextid=ZbWKwL" target="_blank">
+                                      <img height="15" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png" style="border-radius:5px;display:block;" width="15" />
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if mso | IE]></td><td><![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                          <tr>
+                            <td style="padding:4px;vertical-align:middle;">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#777777;border-radius:5px;width:15px;">
+                                <tr>
+                                  <td style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.linkedin.com/company/umbartha-beyond-thresholds/&title=&summary=&source=" target="_blank">
+                                      <img height="15" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" style="border-radius:5px;display:block;" width="15" />
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if mso | IE]></td><td><![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                          <tr>
+                            <td style="padding:4px;vertical-align:middle;">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#777777;border-radius:5px;width:15px;">
+                                <tr>
+                                  <td style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                    <a href="https://www.instagram.com/umbarthabt/?igsh=NGRkNmpkaGh6Zjdp" target="_blank">
+                                      <img height="15" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png" style="border-radius:5px;display:block;" width="15" />
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+  </div>
+</body>
+
+</html>

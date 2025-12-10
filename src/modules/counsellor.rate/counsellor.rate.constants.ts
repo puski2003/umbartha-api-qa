@@ -1,0 +1,2 @@
+export const COUNSELLOR_RATE_MODEL = 'COUNSELLOR_RATE_MODEL';
+export const COUNSELLOR_RATE_COLLECTION = 'counsellor_rate';

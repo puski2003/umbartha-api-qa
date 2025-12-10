@@ -1,0 +1,94 @@
+<mjml>
+  <mj-head>
+    <mj-title>Email Verification</mj-title>
+    <mj-attributes>
+      <mj-text font-family="Arial, sans-serif" />
+      <mj-class
+        name="social-icon"
+        border-radius="5px"
+        background-color="#777777"
+      />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text color="#017D91" padding="20px 25px" font-size="24px"
+          >Email Verification</mj-text
+        >
+        <mj-text font-size="13px">Dear {{UserName}},</mj-text>
+        <mj-text font-size="13px"
+          >Thank you for signing up with {{ServiceName}}. To complete your
+          registration, please click the button below to verify your email
+          address:</mj-text
+        >
+
+        <mj-button
+          background-color="#43C1C0"
+          color="white"
+          font-size="16px"
+          href="{{Verification Link}}"
+          >Verify Email</mj-button
+        >
+
+        <mj-text font-size="13px"
+          >If the button above doesn't work, you can also copy and paste the
+          following link into your browser:</mj-text
+        >
+        <mj-navbar base-url="">
+          <mj-navbar-link
+            padding-top="0px"
+            padding-bottom="0px"
+            href="{{VerificationLink}}"
+            >{{VerificationLink}}</mj-navbar-link
+          >
+        </mj-navbar>
+        <mj-divider border-color="#43C1C0" border-width="4px"></mj-divider>
+
+        <mj-text font-size="13px"
+          >Thank you for choosing {{ServiceName}}. If you have any questions or
+          need assistance, please contact us at {{ContactEmail}} or
+          {{ContactPhone}}.</mj-text
+        >
+        <mj-text font-size="13px"
+          >Warm regards, <br />
+          Umbartha.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="12px" color="#777777" align="center">
+          For any inquiries, please contact us at {{ContactInformation}}. <br />
+          Thank you for your attention!
+        </mj-text>
+        <mj-text
+          font-size="10px"
+          color="#777777"
+          align="center"
+          padding-top="0"
+        >
+          &copy; {{YearOngoing}} UMBARTHA. All rights reserved.
+        </mj-text>
+        <!-- Social Media Icons and Links -->
+        <mj-social mode="horizontal" icon-size="15px" padding-top="0">
+          <mj-social-element
+            mj-class="social-icon"
+            name="facebook"
+            href="https://www.facebook.com/UmbarthaSL?mibextid=ZbWKwL"
+          ></mj-social-element>
+          <mj-social-element
+            mj-class="social-icon"
+            name="linkedin"
+            href="https://www.linkedin.com/company/umbartha-beyond-thresholds/"
+          ></mj-social-element>
+          <mj-social-element
+            mj-class="social-icon"
+            name="instagram"
+            href="https://www.instagram.com/umbarthabt/?igsh=NGRkNmpkaGh6Zjdp"
+          ></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

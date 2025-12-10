@@ -1,0 +1,62 @@
+<mjml>
+  <mj-head>
+    <mj-title>Booking Cancellation</mj-title>
+    <mj-attributes>
+      <mj-text font-family="Arial, sans-serif" />
+      <mj-class
+        name="social-icon"
+        border-radius="5px"
+        background-color="#777777"
+      />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="24px" color="#017D91">Booking Cancellation</mj-text>
+        <mj-text font-size="13px">Dear {{CustomerName}},</mj-text>
+        <mj-text font-size="13px">
+          We regret to inform you that your counselling session with {{CounselorName}} has been cancelled. We apologize for any inconvenience caused.
+        </mj-text>
+        <mj-divider border-color="#43C1C0" border-width="4px" />
+        <mj-text font-size="18px" font-weight="bold">Cancellation Details</mj-text>
+        <mj-text font-size="13px"><strong>Booking ID:</strong> {{BookingID}}</mj-text>
+        <mj-text font-size="13px"><strong>Date:</strong> {{BookingDate}}</mj-text>
+        <mj-text font-size="13px"><strong>Time:</strong> {{BookingTime}}</mj-text>
+        <mj-text font-size="13px"><strong>Location:</strong> {{BookingLocation}}</mj-text>
+        <mj-text font-size="13px">
+          If you have any questions, please contact us at {{ContactEmail}} or {{ContactPhone}} with your appointment details.
+        </mj-text>
+        <mj-text font-size="13px">
+          Warm regards,<br />Umbartha.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-size="12px" color="#777777">
+          For any inquiries, please contact us at {{ContactInformation}}.<br />Thank you again for choosing our service!
+        </mj-text>
+        <mj-text align="center" font-size="10px" color="#777777">&copy; {{YearOngoing}} UMBARTHA. All rights reserved.</mj-text>
+        <!-- Social Media Icons and Links -->
+        <mj-social mode="horizontal" icon-size="15px" padding-top="0">
+          <mj-social-element
+            mj-class="social-icon"
+            name="facebook"
+            href="https://www.facebook.com/UmbarthaSL?mibextid=ZbWKwL"
+          ></mj-social-element>
+          <mj-social-element
+            mj-class="social-icon"
+            name="linkedin"
+            href="https://www.linkedin.com/company/umbartha-beyond-thresholds/"
+          ></mj-social-element>
+          <mj-social-element
+            mj-class="social-icon"
+            name="instagram"
+            href="https://www.instagram.com/umbarthabt/?igsh=NGRkNmpkaGh6Zjdp"
+          ></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
